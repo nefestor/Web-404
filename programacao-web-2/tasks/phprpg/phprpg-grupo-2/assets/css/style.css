@@ -1,0 +1,182 @@
+
+
+
+body{
+	margin: 0 auto;
+	font-family: 'Fredoka One', cursive;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#initial img{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 1200px;
+	min-width: 1000px;
+	text-align: center;
+}
+
+#name{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	left: 50%; top: 50%;
+    transform: translate(-50%, -50%); 	
+	font-size: 6rem;
+	opacity: 0.4;
+	text-align: center;
+}
+
+#btnInitial{
+	position: absolute;
+	font-size: 0.8em;
+	color: white;
+	background-color: #000000;
+	border-radius: 30px;
+	width: 150px;
+	padding: 15px;
+	left: 50%; top: 50%;
+    transform: translate(-50%, -50%); 
+    border: none;
+	z-index: 1;
+	margin-top: 7%;
+	opacity: 0.7;
+}
+
+#btnInitial:hover{
+	opacity: 1.0;
+}
+
+#gradientInitial{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	z-index: 1;
+	top: 1000px;
+	background-image: linear-gradient(to top, #000000, transparent);
+}
+
+#components{
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+	padding: 7% 0 7% 0;
+}
+
+#components h1{
+	position: relative;
+	text-align: center;
+	display: block;
+	font-size: 2rem;
+	color: #FFFFFF;
+	margin: 0 0 7% 0;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+.flip-container{ 
+	perspective: 1000px; 
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}  	
+
+.flip-container:hover .flipper, .flip-container.hover .flipper{  		
+	transform: rotateY(180deg);  	
+} 
+   
+.flip-container, .front, .back {  	
+	width: 200px;  	
+	height: 230px;
+	padding: 20px;
+}
+
+.flipper {  	
+	transition: 0.6s;  	
+	transform-style: preserve-3d;    	
+	position: relative;  
+  	width: 200px;  	
+	height: 230px;
+}
+    
+.front, .back {  	
+	backface-visibility: hidden;    	
+	position: absolute;  	
+	top: 0;  	
+	left: 0;  
+ 	background-color: #FFFFFF;
+}
+    
+.front{ 
+	z-index: 2;  
+}   
+
+.back{ 
+	transform: rotateY(180deg); 
+	background-image: url("../images/carta.jpg");
+}
+
+.back p{
+	font-size: 1.2rem;
+	color: #A9A9A9;
+} 
+
+#combat{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #4d4d45;
+/*	#585840;
+*/	text-align: center;
+}
+
+#gradientCombat{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	z-index: 1;
+	bottom: 0;
+	background-image: linear-gradient(to bottom, #000000, transparent);
+}
+
+#combp{
+	position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin: 0 0 7% 0;
+}
+
+#combat .front{
+	background-color: #DCDCDC;
+}
+
+.contra{
+	font-size: 5rem;
+}
+
+hr{ /*linhas*/
+  border-color:#969696;
+  box-sizing: border-box;
+  width:50%;  
+}
+
+#round{
+	text-align: center;
+	align-items: center;
+	width: 100%;
+}
+
+
+
