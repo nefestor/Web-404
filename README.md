@@ -11,5 +11,6 @@
 - https://aws.amazon.com/pt/cloud9/
 
 
-* Na pasta Web2 contém todas as aulas de WEB2.
-* Já na pasta programacao-web-2 todos os exemplos e envios dos alunos da turma.
+> Na pasta Web2 contém todas as aulas de WEB2.
+> 
+> Já na pasta programacao-web-2 todos os exemplos e envios dos alunos da turma.
